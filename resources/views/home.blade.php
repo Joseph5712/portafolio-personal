@@ -2,6 +2,30 @@
 @extends('layouts.master')
 
 @section('content')
-    {{-- <h1>Bienvenido a mi Portafolio</h1>
-    <p>Explora mis proyectos y habilidades.</p> --}}
+        {{-- Banner de bienvenida --}}
+    <section class="text-center py-8">
+        {{-- imagen de mi person --}}
+        {{-- <img src="{{ asset('build/Logo.png') }}" alt="Logo" class="mx-auto w-24 h-24 rounded-full mb-4"> --}}
+        <h1 class="text-3xl font-bold mb-2">Hola, soy Joseph Mendez Manzanares</h1>
+        <p class="text-lg text-gray-600">Desarrollador Web | Backend & Frontend</p>
+    </section>
+    <section>
+        @include('technologies.index')
+    </section>
+
+    <section>
+        @include('projects.index')
+    </section>
+
+    <section>
+        @include('github.index')
+    </section>
+
+    <section>
+        @include('contact')
+    </section>
+
+    <footer>
+        @include('partials.footer')
+    </footer>
 @endsection
