@@ -9,7 +9,7 @@
         <h1 class="text-3xl font-bold mb-2">Hola, soy Joseph Mendez Manzanares</h1>
         <p class="text-lg text-gray-600">Desarrollador Web | Backend & Frontend</p>
     </section>
-    <section>
+    <section class="md:h-full flex items-center text-gray-600">
         @include('technologies.index')
     </section>
 

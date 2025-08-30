@@ -1,1 +1,5 @@
-Hola buenas aqui esta la pagina de tecnologias
+@extends('layouts.master')
+
+@section('content')
+    @livewire('technology-cards')
+@endsection

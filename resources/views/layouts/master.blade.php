@@ -9,8 +9,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    {{-- @livewireStyles --}}
+    {{-- @livewireScripts --}}
+    {{-- <script src="https://unpkg.com/livewire-v2"></script> --}}
+
 </head>
-<body>
+<body class="h-screen bg-gray-100">
+
     <header>
         @include('partials.navbar')
     </header>
@@ -20,5 +25,7 @@
     </main>
     
     {{-- @include('partials.footer') --}}
+    @livewireStyles
+    
 </body>
 </html>
