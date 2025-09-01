@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 
 //Route::resource('technologies', TechnologyController::class);
 
-Route::group(['prefix' => '/technologies'], function () {
+Route::group(['prefix' => '/home'], function () {
     Route::get('/', [TechnologyController::class, 'index'])->name('index');
 });
 

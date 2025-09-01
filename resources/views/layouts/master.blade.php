@@ -25,7 +25,7 @@
     </main>
     
     {{-- @include('partials.footer') --}}
-    @livewireStyles
+    {{-- @livewireStyles --}}
     
 </body>
 </html>

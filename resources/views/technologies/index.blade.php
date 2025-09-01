@@ -1,5 +1,2 @@
-@extends('layouts.master')
+@livewire('technology-cards')
 
-@section('content')
-    @livewire('technology-cards')
-@endsection
