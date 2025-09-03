@@ -31,6 +31,6 @@
 </div>
 
     <div class="mt-12">
-        {{ $tecnologies->links('pagination::tailwind') }}
+        {{ $tecnologies->links() }}
     </div>
 </div>

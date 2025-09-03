@@ -24,8 +24,4 @@
     <section>
         @include('contact')
     </section>
-
-    <footer>
-        @include('partials.footer')
-    </footer>
 @endsection

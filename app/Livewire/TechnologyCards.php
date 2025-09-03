@@ -8,7 +8,7 @@ use App\Models\Technology;
 
 class TechnologyCards extends Component
 {
-    use WithPagination;
+    //use WithPagination;
     public function render()
     {
         return view('livewire.technology-cards', [

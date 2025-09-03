@@ -26,6 +26,8 @@
     
     {{-- @include('partials.footer') --}}
     {{-- @livewireStyles --}}
-    
+    <footer class="bg-gray-200 dark:bg-gray-900">
+        @include('partials.footer')
+    </footer >
 </body>
 </html>
