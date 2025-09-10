@@ -1,1 +1,1 @@
-GITHUB
+@livewire('git-hub-cards')

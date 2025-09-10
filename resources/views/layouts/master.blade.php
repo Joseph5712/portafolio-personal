@@ -12,9 +12,12 @@
     {{-- @livewireStyles --}}
     {{-- @livewireScripts --}}
     {{-- <script src="https://unpkg.com/livewire-v2"></script> --}}
-
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
-<body class="h-screen bg-gray-100">
+<body class="h-screen bg-black-100">
 
     <header>
         @include('partials.navbar')
@@ -29,5 +32,8 @@
     <footer class="bg-gray-200 dark:bg-gray-900">
         @include('partials.footer')
     </footer >
+    
+    
+
 </body>
 </html>

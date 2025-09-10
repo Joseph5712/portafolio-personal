@@ -7,26 +7,21 @@
     <div class="flex flex-wrap -m-4">
     @foreach ($tecnologies as $technology)
         <div class="p-4 sm:w-1/2 lg:w-1/3">
-            <div class="h-full border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                <div class="flex justify-center items-center bg-gray-100 p-4">
-                    <img class="h-16" src="{{ $technology->icon_url }}" alt="{{ $technology->name }}">
-                </div>
-
-                <div class="p-4 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in flex flex-col gap-2">
-                    <h2 class="text-sm font-medium text-indigo-500">
-                        {{ $technology->experience_years }} año{{ $technology->experience_years > 1 ? 's' : '' }} de experiencia
-                    </h2>
-
-                    <h1 class="text-xl font-semibold">
-                        {{ $technology->name }}
-                    </h1>
-
-                    <p class="text-sm leading-snug line-clamp-3">
-                        {{ $technology->description }}
-                    </p>
-                </div>
+    <div class="card-tecnologia">
+        <div class="card-tecnologia-header">
+            <img class="h-16" src="{{ $technology->icon_url }}" alt="{{ $technology->name }}">
+        </div>
+        <div class="card-tecnologia-body">
+            <div>
+                <h2 class="text-sm font-medium text-indigo-500 mb-1">
+                    {{ $technology->experience_years }} año{{ $technology->experience_years > 1 ? 's' : '' }} de experiencia
+                </h2>
+                <h1 class="card-tecnologia-title">{{ $technology->name }}</h1>
+                <p class="card-tecnologia-texto">{{ $technology->description }}</p>
             </div>
         </div>
+    </div>
+</div>
     @endforeach
 </div>
 

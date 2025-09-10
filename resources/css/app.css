@@ -12,3 +12,32 @@
 }
 
 
+body {
+    @apply bg-[#0f172a] text-white;
+}
+
+/* Tarjeta de tecnología */
+.card-tecnologia {
+  @apply h-full border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow;
+}
+
+.card-tecnologia-header {
+  @apply flex justify-center items-center bg-gray-100 p-4;
+}
+
+.card-tecnologia-body {
+  @apply p-4 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in flex flex-col justify-between min-h-[280px];
+}
+
+.card-tecnologia-title {
+  @apply text-xl font-semibold mb-2;
+}
+
+.card-tecnologia-texto {
+  @apply text-sm leading-snug line-clamp-3;
+}
+
+.card-github {
+  @apply bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700 border border-gray-700 rounded-xl p-6 text-white shadow-md h-[320px] flex flex-col justify-between transition-all duration-300;
+}
+
