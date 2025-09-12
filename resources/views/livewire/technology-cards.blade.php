@@ -1,31 +1,26 @@
-<div class="container px-5 py-24 mx-auto">
+
+<div id="stack" class="py-24 px-6 sm:px-20 bg-[#0a192f] text-slate-300" >
     <div class="text-center mb-12">
-        <h5 class="text-base md:text-lg text-indigo-700 mb-1">Tecnologías que domino</h5>
-        <h1 class="text-4xl md:text-6xl text-gray-700 font-semibold">Mi Stack Tecnológico</h1>
+        <h3 class="text-green-400 font-mono text-sm">Tecnologías que domino</h3>
+        <h2 class="text-4xl sm:text-5xl font-bold text-slate-200">Mi Stack Tecnológico</h2>
     </div>
 
-    <div class="flex flex-wrap -m-4">
-    @foreach ($tecnologies as $technology)
-        <div class="p-4 sm:w-1/2 lg:w-1/3">
-    <div class="card-tecnologia">
-        <div class="card-tecnologia-header">
-            <img class="h-16" src="{{ $technology->icon_url }}" alt="{{ $technology->name }}">
-        </div>
-        <div class="card-tecnologia-body">
-            <div>
-                <h2 class="text-sm font-medium text-indigo-500 mb-1">
-                    {{ $technology->experience_years }} año{{ $technology->experience_years > 1 ? 's' : '' }} de experiencia
-                </h2>
-                <h1 class="card-tecnologia-title">{{ $technology->name }}</h1>
-                <p class="card-tecnologia-texto">{{ $technology->description }}</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        @foreach ($tecnologies as $tech)
+            <div class="bg-[#0f1f3a] border border-slate-700 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+                <div class="bg-slate-950 flex justify-center items-center py-6">
+                    <img class="w-16 h-16 object-contain" src="{{ $tech->icon_url }}" alt="{{ $tech->name }}">
+                </div>
+                <div class="p-6">
+                    <p class="text-green-400 text-sm mb-2 font-mono">{{ $tech['experience'] }}</p>
+                    <h3 class="text-lg font-semibold text-slate-200 mb-1">{{ $tech['name'] }}</h3>
+                    <p class="text-sm text-slate-400">{{ $tech['description'] }}</p>
+                </div>
             </div>
-        </div>
+        @endforeach
     </div>
-</div>
-    @endforeach
-</div>
 
-    <div class="mt-12">
-        {{ $tecnologies->links() }}
+    <div class="mt-12 flex justify-center">
+        {{ $tecnologies->links(data: ['scrollTo' => false]) }}
     </div>
 </div>

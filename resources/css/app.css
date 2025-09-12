@@ -1,16 +1,6 @@
 @import 'tailwindcss';
 
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
 
 body {
     @apply bg-[#0f172a] text-white;
@@ -40,4 +30,51 @@ body {
 .card-github {
   @apply bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-700 border border-gray-700 rounded-xl p-6 text-white shadow-md h-[320px] flex flex-col justify-between transition-all duration-300;
 }
+
+/* about me */
+
+  .about-section {
+    @apply px-8 sm:px-24 py-24 bg-[#0a192f] text-slate-300;
+  }
+
+  .section-header {
+    @apply flex items-center gap-4 mb-10;
+  }
+
+  .section-number {
+    @apply text-green-400 font-mono text-lg;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold text-slate-100;
+  }
+
+  .section-line {
+    @apply flex-1 h-px bg-slate-700;
+  }
+
+  .about-content {
+    @apply flex flex-col lg:flex-row gap-10;
+  }
+
+  .about-text {
+    @apply flex-1 text-base leading-relaxed;
+  }
+
+  .tech-list {
+    @apply grid grid-cols-2 gap-2 mt-4 list-none pl-0 text-green-400 font-mono text-sm;
+  }
+
+  .tech-list li::before {
+    content: "▸ ";
+    @apply text-green-400 mr-1;
+  }
+
+  .about-image-container {
+    @apply flex-1 flex justify-center items-start;
+  }
+
+  .about-image {
+    @apply w-64 h-auto rounded-md border-2 border-green-400 hover:scale-105 transition-transform duration-300;
+  }
 

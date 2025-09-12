@@ -25,13 +25,15 @@
         Ver proyectos
     </a>
     </section>
-
-    <section class="md:h-full flex items-center text-gray-600">
-        @include('technologies.index')
+    <section>
+        @include('about-me')
     </section>
-
     <section>
         @include('projects.index')
+    </section>
+
+    <section class="py-16 px-4 sm:px-12 bg-[#0a192f] text-white">
+        @include('technologies.index')
     </section>
 
     <section>

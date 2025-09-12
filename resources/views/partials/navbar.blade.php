@@ -10,16 +10,19 @@
                     <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]" aria-current="page">01.Inicio</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">02.Proyectos</a>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">02.Sobre Mí</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">03.Tecnologías</a>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">03.Proyectos</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">04.GitHub</a>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">04.Tecnologías</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">05.Contacto</a>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">05.GitHub</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-400 md:p-0 dark:text-white md:dark:hover:text-green-400 dark:hover:bg-[#0a192f] dark:hover:text-green-400 md:dark:hover:bg-transparent dark:border-[#0a192f]">06.Contacto</a>
                 </li>
             </ul>
         </div>

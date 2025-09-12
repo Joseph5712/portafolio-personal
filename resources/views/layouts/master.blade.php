@@ -9,16 +9,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
-    {{-- @livewireStyles --}}
-    {{-- @livewireScripts --}}
-    {{-- <script src="https://unpkg.com/livewire-v2"></script> --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-</head>
-<body class="h-screen bg-black-100">
+    <!-- Dentro de master.blade.php -->
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
 
+</head>
+<body class="h-screen bg-[#0a192f]">
+    
     <header>
         @include('partials.navbar')
     </header>
@@ -27,13 +27,8 @@
         @yield('content')
     </main>
     
-    {{-- @include('partials.footer') --}}
-    {{-- @livewireStyles --}}
     <footer class="bg-gray-200 dark:bg-gray-900">
         @include('partials.footer')
     </footer >
-    
-    
-
 </body>
 </html>
