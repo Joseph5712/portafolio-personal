@@ -10,7 +10,7 @@
 
       <p class="mb-4">
         ¡Hola! Soy Joseph y disfruto crear cosas que viven en internet.
-        Mi interés por el desarrollo web comenzó en 2020 cuando empecé a crear sitios para proyectos académicos en la universidad.
+        Mi interés por el desarrollo web comenzó en 2021 cuando empecé a crear sitios para proyectos académicos en la universidad.
       </p>
 
       <p class="mb-4">

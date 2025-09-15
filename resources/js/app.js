@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const cards = document.querySelectorAll(".repo-card");
     const toggleBtn = document.getElementById("toggleButton");
@@ -14,10 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleBtn.textContent = showingAll ? "Mostrar menos" : "Mostrar más";
     }
 
-    toggleBtn.addEventListener("click", () => {
-        showingAll = !showingAll;
-        updateCards();
-    });
+    if (toggleBtn) {
+        toggleBtn.addEventListener("click", () => {
+            showingAll = !showingAll;
+            updateCards();
+        });
 
-    updateCards(); // inicial
+        updateCards(); // Inicial
+    }
 });
+

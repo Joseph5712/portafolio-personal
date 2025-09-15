@@ -16,7 +16,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('name');
             $table->string('description');
-            $table->integer('experience_years')->nullable();
+            $table->enum('skill_level', ['Basico', 'Intermedio', 'Avanzado']);
             $table->string('icon_url')->nullable();
         });
     }

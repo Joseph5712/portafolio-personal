@@ -27,7 +27,8 @@
         @yield('content')
     </main>
     
-    <footer class="bg-gray-200 dark:bg-gray-900">
+    <footer class="bg-[#0d203c] py-10 text-center text-slate-400 shadow-[inset_0_8px_16px_-8px_rgba(0,0,0,0.5)] animate-fade-up duration-700"
+            id="footer">
         @include('partials.footer')
     </footer >
 </body>

@@ -28,9 +28,9 @@
     <section>
         @include('about-me')
     </section>
-    <section>
+    {{-- <section>
         @include('projects.index')
-    </section>
+    </section> --}}
 
     <section class="py-16 px-4 sm:px-12 bg-[#0a192f] text-white">
         @include('technologies.index')
@@ -40,7 +40,8 @@
         @include('github.index')
     </section>
 
-    <section>
+    <section id="contacto"
+         class="bg-[#0f172a] py-20 px-4 text-center text-slate-300 shadow-[inset_0_8px_16px_-8px_rgba(0,0,0,0.5)] animate-fade-up duration-700">
         @include('contact')
     </section>
 @endsection

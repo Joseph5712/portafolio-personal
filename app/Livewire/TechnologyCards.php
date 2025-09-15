@@ -13,9 +13,10 @@ class TechnologyCards extends Component
     public function render()
     {
         $tecnologies = Technology::paginate(3);
-
+        //dd($tecnologies);
         return view('livewire.technology-cards', [
             'tecnologies' => $tecnologies,
         ]);
+        
     }
 }

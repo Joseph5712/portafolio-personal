@@ -1,0 +1,53 @@
+[33mcommit 66bd1c54560be667f693cce871be635e12894f78[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Fri Sep 12 00:13:46 2025 -0600
+
+    fix-style: corrigiendo el error card livewire paginate y darle mas estilo github cards
+
+[33mcommit daa5eba35ffe0bb83859457866a9d7f18f660a8a[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Tue Sep 9 23:48:43 2025 -0600
+
+    style-feat: agregando API REST de github y agregando diseno deseado
+
+[33mcommit bc5e5968c72df4b94c26d3507e193db0df3c78ef[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Tue Sep 2 23:18:19 2025 -0600
+
+    feat: agregando el footer sin style
+
+[33mcommit 12d7bf3b6335fea8c8f671b27acdb5721dd1380b[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Sun Aug 31 23:36:37 2025 -0600
+
+    feat: agregar paginacion con livewire de las tecnologias con diseno basico
+
+[33mcommit c279cb551cdd82aa76188654427ddbbc0346d1fe[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Fri Aug 29 22:42:14 2025 -0600
+
+    utilizando livewire
+
+[33mcommit 5cf151c4267a8d2f6d0d48b1ee02112bb99a16a6[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Tue Aug 26 19:06:04 2025 -0600
+
+    Diseñando la estructura de la pagina principal
+
+[33mcommit e52da4fa811abdd25ecec44ba7e97550f6f7e70f[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Tue Aug 26 00:17:56 2025 -0600
+
+    'agregando-navbar'
+
+[33mcommit ce89db502dab1b1ab040c6e25d7e728497719749[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Mon Aug 25 23:25:31 2025 -0600
+
+    'creando-estructura-carpetas'
+
+[33mcommit c64926ee3a31ac2433b97ca6285f8b63ca9ce27c[m
+Author: Joseph5712 <jmm7gameover@gmail.com>
+Date:   Sun Aug 24 00:48:33 2025 -0600
+
+    primer commit
