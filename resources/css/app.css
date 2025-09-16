@@ -78,3 +78,6 @@ body {
     @apply w-64 h-auto rounded-md border-2 border-green-400 hover:scale-105 transition-transform duration-300;
   }
 
+html {
+  scroll-behavior: smooth;
+}

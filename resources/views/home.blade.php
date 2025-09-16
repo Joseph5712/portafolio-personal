@@ -3,9 +3,9 @@
 
 @section('content')
         {{-- Banner de bienvenida --}}
-    <section id="hero" class="min-h-screen flex flex-col justify-center items-start px-8 sm:px-24 bg-[#0a192f] text-left">
+    <section id="inicio" class="min-h-screen flex flex-col justify-center items-start px-8 sm:px-24 bg-[#0a192f] text-left">
     <h2 class="text-green-400 text-sm sm:text-base font-mono mb-2 animate-fade-in delay-100">
-        Hi, my name is
+        Hola, mi nombre es
     </h2>
 
     <h1 class="text-4xl sm:text-6xl font-bold text-slate-100 leading-tight animate-fade-in delay-200">
@@ -13,7 +13,7 @@
     </h1>
 
     <h2 class="text-4xl sm:text-6xl font-bold text-slate-400 mb-6 animate-fade-in delay-300">
-        I build things for the web.
+        I build things for websides.
     </h2>
 
     <p class="text-slate-400 max-w-xl animate-fade-in delay-500">
@@ -25,18 +25,18 @@
         Ver proyectos
     </a>
     </section>
-    <section>
+    <section id="sobremi">
         @include('about-me')
     </section>
     {{-- <section>
         @include('projects.index')
     </section> --}}
 
-    <section class="py-16 px-4 sm:px-12 bg-[#0a192f] text-white">
+    <section id="technologies" class="py-16 px-4 sm:px-12 bg-[#0a192f] text-white">
         @include('technologies.index')
     </section>
 
-    <section>
+    <section id="github">
         @include('github.index')
     </section>
 

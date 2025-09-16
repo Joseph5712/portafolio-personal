@@ -25,3 +25,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Selecciona todos los enlaces internos del navbar
+    const navLinks = document.querySelectorAll('a[href^="#"]');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                const elementTop = targetElement.getBoundingClientRect().top;
+                const offsetPosition = window.pageYOffset + elementTop - (window.innerHeight / 2) + (targetElement.offsetHeight / 2);
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
