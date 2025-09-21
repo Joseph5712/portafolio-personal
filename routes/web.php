@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Route;
 
 //Route::resource('technologies', TechnologyController::class);
 
+Route::redirect('/','/home');
+
 Route::group(['prefix' => '/home'], function () {
     Route::get('/', [TechnologyController::class, 'index'])->name('index');
     Route::get('/', [GitHubController::class, 'index'])->name('github.index');
