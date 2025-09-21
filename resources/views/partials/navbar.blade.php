@@ -77,8 +77,8 @@
     <nav class="flex flex-col items-center space-y-4 text-lg">
       <a href="#inicio" @click="open = false" class="hover:text-green-400"><span class="text-green-400">01.</span> Inicio</a>
       <a href="#sobremi" @click="open = false" class="hover:text-green-400"><span class="text-green-400">02.</span> Sobre Mí</a>
-      <a href="#proyectos" @click="open = false" class="hover:text-green-400"><span class="text-green-400">03.</span> Proyectos</a>
-      <a href="#tecnologias" @click="open = false" class="hover:text-green-400"><span class="text-green-400">04.</span> Tecnologías</a>
+      <a href="#github" @click="open = false" class="hover:text-green-400"><span class="text-green-400">03.</span> Proyectos</a>
+      <a href="#technologies" @click="open = false" class="hover:text-green-400"><span class="text-green-400">04.</span> Tecnologías</a>
       <a href="#contacto" @click="open = false" class="hover:text-green-400"><span class="text-green-400">05.</span> Contacto</a>
     </nav>
 
